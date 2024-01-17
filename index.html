@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="David Rodríguez"> 
+    <meta name="Description" content="Bienvenido a Vital360. Descubre artículos, videos y guias para cuidar de tu bienestar."> 
+    
+    <title>Vital 360 | Cuidando de ti</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Serif:wght@600&display=swap" rel="stylesheet">
+
+
+
+    <link rel="shortcut_icon" type="image/png" href="img/favicon.png"> <!-- Agregar favicon a la pestaña de la página-->
+    <link rel="stylesheet" href="css/estilos.css"> <!-- conectar archivo HTML con archivo de estilos CSS-->
+  </head>
+
+  <body>
+    <header>
+        <div class="container">
+            <nav class="cabecera">  
+                <a href="index.html" title="Ir al inicio" class="logo">
+                    <img 
+                    src="img/logoVital360.svg" 
+                    alt="Logo Vital 360"
+                    >
+                </a>  
+                <ul class="menu">
+                    <li><a href="blog.html" title="Blog">Blog</a></li>
+                    <li><a href="videos.html" title="Vídeos ">Vídeos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main_index">
+        <div class="container">
+            <section id="img_lema">
+                <h1>Vital360: Cuidando de ti en cada giro de la vida</h1>
+            </section>
+            <section id="bloque_introducción">
+                <h2>¿Por qué Vital360?</h2>
+                <div id="bloque_intro_child">
+                    <div>
+                        <p>En un mundo cada vez más acelerado, el <strong>cuidado personal</strong>, la <strong>salud</strong> y el <strong>bienestar</strong> se han convertido en aspectos fundamentales de una vida plena y equilibrada.</p>
+                        <p>Atender a nuestras necesidades físicas, mentales y emocionales no es un lujo, sino una necesidad vital para mantener un <strong>equilibrio en nuestras vidas</strong>. Al cuidar de nosotros mismos, no solo mejoramos nuestra calidad de vida, sino que también incrementamos nuestra capacidad para afrontar los desafíos diarios y disfrutar plenamente de cada momento.</p>
+                        <p>El bienestar integral es, por tanto, un viaje continuo y gratificante hacia el descubrimiento y mantenimiento de nuestro mejor yo. <strong>Vital360</strong> quiere acompañarte en el trayecto.</p>
+                    </div>
+                    <div>
+                        <p>Para estar al día, <strong>suscríbete a nuestra <em>newsletter</em></strong>.</p>
+                        <form action="#" method="post">
+                                <ul>
+                                    <li>
+                                        <label for="name">Nombre</label>
+                                        <input type="text" id="name" name="name" placeholder="Introduce tu nombre"
+                                            pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'\-]{3,64}"
+                                            title="Solo caracteres alfabéticos. Un mínimo de 3 y un máximo de 64 caracteres">
+                                    </li>
+                                    <li>
+                                        <label for="email">Correo Electrónico</label>
+                                        <input type="email" id="email" name="email" placeholder="Introduce tu email">
+                                    </li>
+                                </ul>
+                            <p class="form_text">INFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE <strong>Vital360</strong>. <strong>Finalidades:</strong> recogida de datos para el envío del boletín electrónico. <strong>Legitimación:</strong> consentimiento del interesado. <strong>Destinatarios:</strong> no están previstas cesiones de datos a terceros, excepto obligación legal. <strong>Derechos:</strong> puede retirar su consentimiento en cualquier momento, así como acceder, rectificar, suprimir sus datos y otros derechos dirigiéndose a <a href="#" title="Página de Aviso legal" target="_blank">info@vital360.com</a>. <strong>Información Adicional:</strong> puede ampliar la información en el enlace de <a href="#" title="Página de Aviso legal" target="_blank">Aviso legal</a> y <a href="#" title="Página de Política de privacidad" target="_blank">Política de privacidad</a>.</p>
+                            <p class="form_text">
+                                <label for="terms">
+                                    <input type="checkbox" id="terms" name="terms" value="terms" required>
+                                    <span id="terminos">He leído y acepto la política de privacidad</span>
+                                </label>
+                            </p>
+                            <button type="submit">Suscríbeme a la newsletter</button>
+                        </form>
+                    </div>
+                </div>
+                
+            </section>
+            <section id="bloque_artículos">
+                <div class="artículos_odd">
+                    <figure>
+                        <img src="img/home-bloc1.jpg" alt="Guía de nutrición y alimentación saludable">
+                        <figcaption>&copy; Dovile Ramoskaite, en Unsplash</figcaption>
+                    </figure>
+                    <div>
+                        <h3>Nutrición y alimentación saludables</h3>
+                        <p>Descubre como una nutrición adecuada puede transformar tu salud. Consejos prácticos sobre dietas balanceadas, recetas saludables y la importancia de los nutrientes.</p>
+                        <p><a href="#" target="_blank">Me interesa</a></p>
+                    </div>
+                </div>
+                <div class="artículos_even">
+                    <figure>
+                        <img src="img/home-bloc2.jpg" alt="Guía de ejercicio y actividad física">
+                        <figcaption>&copy; Logan Weaver, en Unsplash</figcaption>
+                    </figure>
+                    <div>
+                        <h3>Ejercicio y actividad física</h3>
+                        <p>El ejercicio físico es clave para un estilo de vida saludable. Explora rutinas de fitness, consejos para mantenerse activo y descubre cómo el ejercicio beneficia mente y cuerpo.</p>
+                        <p><a href="#" target="_blank">Me interesa</a></p>
+                    </div>
+                </div>
+                <div class="artículos_odd">
+                    <figure>
+                        <img src="img/home-bloc3.jpg" alt="Guía de bienestar mental">
+                        <figcaption>&copy; Le Minh Phuong, en Unsplash</figcaption>
+                    </figure>
+                    <div>
+                        <h3>Bienestar mental</h3>
+                        <p>Tu bienestar mental es tan importante como tu salud física. Aprende sobre técnicas de relajación, mindfulness y estrategias para manejar el estrés.</p>
+                        <p><a href="#" target="_blank">Me interesa</a></p>
+                    </div>
+                </div>
+                <div class="artículos_even">
+                    <figure>
+                        <img src="img/home-bloc4.jpg" alt="Guía de consejos para un estilo de vida saludable">
+                        <figcaption>&copy; Bluewater Sweden, en Unsplash</figcaption>
+                    </figure>
+                    <div>
+                        <h3>Consejos para un estilo de vida saludable  </h3>
+                        <p>Pequeños cambios pueden marcar una gran diferencia. Descubre cómo mejorar tu sueño, mantener una hidratación adecuada y equilibrar tu vida cotidiana.</p>
+                        <p><a href="#" target="_blank">Me interesa</a></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer">
+            <div id="footer_left">
+                <img id="footer_logo" src="img/logoVital360-n.svg" alt="Logotipo">
+                <p>2023-2024 | David Rodríguez Camuendo</p>
+            </div>
+            <div id="footer_right">
+                <div>
+                    <a href="" title="Twitter" class="redes" target="_blank"><img src="img/twitter.svg" alt="Twitter"></a>
+                    <a href="" title="Instagram" class="redes" target="_blank"><img src="img/instagram.svg" alt="Instagram"></a>
+                    <a href="" title="Youtube" class="redes" target="_blank"><img src="img/youtube.svg" alt="Youtube"></a>
+                </div>
+                <ul>
+                    <li><a href="" target="_blank">Política de privacidad</a></li>
+                    <li><a href="" target="_blank">Política de cookies</a></li>
+                    <li><a href="" target="_blank">Aviso legal</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>    
+    </footer>
+  </body>
+</html>
