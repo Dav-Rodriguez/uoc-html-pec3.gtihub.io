@@ -762,6 +762,13 @@ blockquote {
     border-left: 3px solid rgb(191, 12, 240);
     margin-left: 3em;
   }
+    #columna_previews {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
 }
 /************************************************/
 
